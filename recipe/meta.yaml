@@ -1,5 +1,5 @@
 {% set name = "goreleaser" %}
-{% set version = "2.10.2" %}
+{% set version = "2.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/goreleaser/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 394de66eeef67baf953deacbe9d8baef2b7b118076587a32b448998a51067f57
+  sha256: 93f3c54c02b4edd154f77b6330e3bf4c42b45d2084a2262cce6baf9960e4673f
 
 build:
   number: 0
